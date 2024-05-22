@@ -15,7 +15,7 @@
             background-size: cover;
             background-position: center;
             height: 40vh;
-            
+
         }
         .custom-img img {
             height: 30vh;
@@ -28,6 +28,9 @@
             header {
                 background-image: url(./assests/images/GTR.jpg);
             }
+            header p{
+                display: none;
+            }
         }
     </style>
 </head>
@@ -36,6 +39,7 @@
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="#">DesignerGTR</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="2.5rem" height="2.5rem" viewBox="0 0 192.756 192.756"><g fill-rule="evenodd" clip-rule="evenodd"><path d="M0 0h192.756v192.756H0V0z"/><path d="M136.631 114.265l-1.467.032s.988.83 5.553 5.395c7.24 7.241 17.355 6.577 17.355 6.577v11.764h-34.75L99.99 115.478H75.448v4.502c.104 1.459-.983 6.289 6.575 6.289v11.76l-41.678.004s-.029-11.7 0-11.7c8.063 0 8.063-7.471 8.063-7.471V99.835c0-9.756-8.063-9.576-8.063-9.576v-11.88h87.776s23.352-.912 23.352 17.171c0 17.627-14.842 18.715-14.842 18.715zm-16.945-14.069s4.35.256 4.35-3.138c0-3.334-4.35-2.995-4.35-2.995l-44.046-.008.034 6.134 44.012.007zM99.594 46.214v6.045h22.447v21.914h15.326V52.259h20.828v-6.045H99.594zM34.561 61.944c0 13.17 17.909 12.229 22.835 12.229h37.665V56.685H67v4.102h12.951v8.421H57.396s-7.986-.109-7.986-8.421 7.986-8.528 7.986-8.528h37.665v-6.045H57.396s-22.831-1.207-22.831 11.688l-.004 4.042z" fill="#fff"/><path d="M129.658 111.534h-3.279s5.285 4.476 11.252 10.444c6.543 6.544 16.809 7.69 16.809 7.69v4.534h-29.57l-23.203-22.669h-29.68v10.255s0 7.88 6.367 7.88v4.534h-34.21s-.027-4.534 0-4.534c7.555 0 7.555-7.88 7.555-7.88V97.067c0-8.528-7.555-9.607-7.555-9.607v-4.857h82.236s21.045-1.342 21.045 14.465c-.001 15.408-17.767 14.466-17.767 14.466zm-8.695-7.567s6.691 0 6.691-6.908c0-6.909-6.908-6.801-6.908-6.801H71.965v13.709h48.998z" fill="#ca272d"/></g></svg>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -47,17 +51,17 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active text-black" aria-current="page" href="#">Register</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link text-black" href="#">Login</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
+                  <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Merch
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item text-black" href="#">Clothing</a></li>
                     <li><a class="dropdown-item" href="#">Another action</a></li>
                     <li>
                       <hr class="dropdown-divider">
@@ -95,9 +99,9 @@
                       <img src="/assests/images/GTR4.jpg" class="d-block w-50" alt="...">
                       <img src="/assests/images/GTR5.jpg" class="d-block w-50" alt="...">
                     </div>
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
+                    <div class="carousel-caption d-none d-md-block text-white">
+                      <h5>GTR</h5>
+                      <p>TEST</p>
                     </div>
                   </div>
                   <div class="carousel-item custom-img" data-bs-interval="2000">
@@ -105,9 +109,9 @@
                       <img src="/assests/images/GTR6.jpg" class="d-block w-50" alt="...">
                       <img src="/assests/images/GTR7.jpg" class="d-block w-50" alt="...">
                     </div>
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
+                    <div class="carousel-caption d-none d-md-block text-white">
+                      <h5>GTR</h5>
+                      <p>TEST</p>
                     </div>
                   </div>
                 </div>
@@ -161,7 +165,7 @@
               </div>
     
     <footer>
-        <p>&copy; 2020 coreSkills</p>
+        <p>&copy; DesignerGTR</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
